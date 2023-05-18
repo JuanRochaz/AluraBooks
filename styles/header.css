@@ -48,6 +48,9 @@
 .container__titulo{
     display: none;
 }
+.opcoes{
+    display: none;
+}
 @media screen and (min-width:1020px) {
     .container__titulo, .container__titulo--negrito{
        font-family: var(--fonte-secundaria);
@@ -60,4 +63,22 @@
     .container__titulo--negrito{
         font-weight: 700;
     }
+    .opcoes{
+        display: flex;
+    }
+    .opcoes__item{
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--preto);
+    }
+    .container__imagem--favoritos{
+        display: none;
+    }
+    .cabecalho__menu-hamburguer{
+        display: none;
+    }
+    
 }
