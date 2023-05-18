@@ -45,3 +45,19 @@
     -webkit-background-clip:text;   -webkit-text-fill-color: transparent; background-clip: text;
     text-transform:uppercase;
 }
+.container__titulo{
+    display: none;
+}
+@media screen and (min-width:1020px) {
+    .container__titulo, .container__titulo--negrito{
+       font-family: var(--fonte-secundaria);
+       font-size: 1.5em;
+       display: inline-block; 
+    }
+    .container__titulo{
+        font-weight: 400;
+    }
+    .container__titulo--negrito{
+        font-weight: 700;
+    }
+}
