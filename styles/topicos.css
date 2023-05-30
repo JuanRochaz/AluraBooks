@@ -34,3 +34,21 @@
         font-size: 1.5rem;
     }
 }
+
+@media screen and (min-width:1728px){
+    .topicos {
+        padding: 3em 25vw;
+    }
+    
+}
+
+@media screen and (min-width:1728px) { 
+    .lista-rodape{
+        border-left: 1px solid var(--cinza-claro);
+        padding-left: 1.5em;
+    }
+    .rodape{
+        padding: 3em 0;
+    }
+    
+}
